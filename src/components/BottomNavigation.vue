@@ -42,11 +42,10 @@
 export default {
     data(){
         return{
-            pathname: this.$route.path
         } 
     },
     mounted(){
-        console.log(this.pathname);
+        console.log('asda');
        
     },
     methods:{
